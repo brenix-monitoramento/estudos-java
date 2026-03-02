@@ -6,3 +6,6 @@ Como o Java funciona então?
         no caso do Java a JVM (Java Virtual Machine).
 
 JVM - A máquina virtual do Java é necessária para executar e desenvolver sistemas Java.
+
+O Java usa o paradigma orientado a objetos - toda aplicação Java é feita com classes.
+Package - é um agrupamento lógico de classes relacionadas.
