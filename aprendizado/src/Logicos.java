@@ -1,3 +1,4 @@
+package aprendizado.src;
 public class Logicos{
     public static void main(String[] args){
         // operadores lógicos

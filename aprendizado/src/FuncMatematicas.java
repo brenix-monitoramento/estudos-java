@@ -1,3 +1,4 @@
+package aprendizado.src;
 public class FuncMatematicas{
     public static void main(String[] args){
         // Funções matemáticas

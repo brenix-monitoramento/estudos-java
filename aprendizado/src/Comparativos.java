@@ -1,3 +1,4 @@
+package aprendizado.src;
 public class Comparativos{
     public static void main(String[] args){
         // Operadores comparativos

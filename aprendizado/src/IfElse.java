@@ -1,3 +1,4 @@
+package aprendizado.src;
 import java.util.Scanner;
 
 public class IfElse{
