@@ -1,11 +1,11 @@
-public class Main{
-    public static void main(String[] args){
+public class Main {
+    public static void main(String[] args) {
         System.out.println("Olá mundo!");
 
-        bool();
+        result();
     }
 
-    public static void bool(){
+    public static void result() {
         int x = 23;
         double y = 45.67;
 
