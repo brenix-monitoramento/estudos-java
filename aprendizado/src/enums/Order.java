@@ -1,15 +1,16 @@
 package aprendizado.src.enums;
-
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import aprendizado.src.enums.OrderStatus;
 
 import java.util.Date;
 
 public class Order {
     private Integer id;
-    private Date moment;
+    private LocalDate moment;
     private OrderStatus status;
 
-    Order(Integer id, Date moment, OrderStatus status) {
+    Order(Integer id, LocalDate moment, OrderStatus status) {
         this.id = id;
         this.moment = moment;
         this.status = status;
@@ -23,12 +24,13 @@ public class Order {
         return this.id;
     }
 
-    public void setMoment(Date moment) {
+    public void setMoment(LocalDate moment) {
         this.moment = moment;
     }
 
-    public Date getMoment() {
-        return this.moment;
+    public String getMoment() {
+        DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        return this.moment.format(dateFormat);
     }
 
     public void setStatus(OrderStatus status) {
