@@ -15,4 +15,11 @@ public class Gato extends Animal {
 
         System.out.println("Miau");
     }
+
+    @Override
+    public void getAnimal() {
+        super.getAnimal();
+        System.out.println("Coat color: " + this.coatColor);
+    }
+
 }
