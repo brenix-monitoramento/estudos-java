@@ -8,5 +8,8 @@ public class Main {
         var gato1 = new Gato("Mat", AnimalGender.MALE, 2, "Marrom");
         gato1.miar();
         gato1.getAnimal();
+
+        var cachorro = new Animal("Luck", AnimalGender.MALE, 12);
+        cachorro.getAnimal();
     }
 }
