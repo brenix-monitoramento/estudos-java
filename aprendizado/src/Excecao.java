@@ -17,8 +17,9 @@ public class Excecao {
             System.out.println("Invalid position");
         } catch (InputMismatchException e) {
             System.out.println("Invalid vector position");
+        } finally {
+            System.out.println("End");
         }
 
-        System.out.println("End");
     }
 }
