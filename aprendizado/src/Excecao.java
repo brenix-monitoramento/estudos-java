@@ -13,10 +13,8 @@ public class Excecao {
             int vectorPosition = sc.nextInt();
 
             System.out.println(vector[vectorPosition]);
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Invalid position");
-        } catch (InputMismatchException e) {
-            System.out.println("Invalid vector position");
+        } catch (Exception e) {
+            System.out.println("Invalid value(s) ");
         } finally {
             System.out.println("End");
         }
